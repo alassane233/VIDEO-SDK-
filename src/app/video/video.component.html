@@ -1,0 +1,16 @@
+<div class="content">
+  <div class="container-fluid video-zoom  justify-content-center">
+    <div class=" mx-auto" id='previewContainer'></div>
+    <div id='sessionContainer' class=" "></div>
+
+
+<!--    <button  (click)="videoZoom()">Primary</button>-->
+<!--    <button type="button" class="btn btn-primary " (click)="cloveView()">closeView</button>-->
+
+
+
+  </div>
+  <div class="text-center">
+  <button *ngIf="buttonJoin" type="button" class="btn btn-primary" [disabled]="clicked"  (click)="getSignnature();clicked = true">Join Video</button>
+  </div>
+</div>
